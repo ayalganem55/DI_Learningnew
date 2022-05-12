@@ -7,7 +7,7 @@ def get_random_temp(season):
     if season == 'winter':
         random_temp = random.randint(-10, 16)
         floated = float(random_temp)
-        return floated
+        return floated                           # you can just return at the end, there is no need always to do return
     elif season == 'fall':
         random_temp = random.randint(17, 23)
         floated = float(random_temp)
